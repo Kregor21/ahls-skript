@@ -1,0 +1,24 @@
+root kasutajana:
+installi - apt-get install git
+tavakasutajana esmakordselt:
+a) seadista - määra kasutajanimi,email, editor
+git config --global user.name "ees perenimi"
+git config --global user.email kasutaja@nimi
+git config --global core.editor nano
+
+b) loo kataloog, kus hakkad skriuptima
+mkdir skriptimine
+
+c) sisene kausta
+cd skriptimine
+
+d) tekita lokaalne repositoorium git süsteemi jaoks antud kasutas
+git init
+
+remote seadistamine:
+
+a) git remote add nimi aadress
+git remote add origin git@github.com:Kregor21/ahls-skript.git
+
+b) git remote kontroll
+git remote -v
