@@ -22,3 +22,15 @@ git remote add origin git@github.com:Kregor21/ahls-skript.git
 
 b) git remote kontroll
 git remote -v
+
+põhikasutamine
+
+a) pane fail jälgimisele
+git add failinimi
+
+b)lisa kijeldus muutatuse kohta
+git commit -m "lühikirjelduse lause"
+
+c)lisa kaugrepositooriumi
+git push -uf origin master
+
